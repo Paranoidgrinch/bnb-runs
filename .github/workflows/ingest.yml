@@ -1,0 +1,36 @@
+name: Ingest runs from Discord
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # hourly
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect new recordings
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_CHANNEL_ID: ${{ vars.DISCORD_CHANNEL_ID }}
+          DISCORD_WEBHOOK_ID: ${{ vars.DISCORD_WEBHOOK_ID }}
+        run: python3 tools/ingest.py
+      - name: Commit
+        run: |
+          git config user.name "bnb-runs ingest"
+          git config user.email "actions@users.noreply.github.com"
+          git add runs state
+          if git diff --cached --quiet; then
+            echo "nothing new"
+          else
+            git commit -m "runs: ingest $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
