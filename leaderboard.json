@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-09-23T18:01:15.3963061Z",
+ "generated_utc": "2026-09-23T20:37:13.9128239Z",
  "players": [
   {
    "id": "8ef75b3f4fc7",
@@ -10,6 +10,16 @@
    "elites": 1,
    "bosses": 0,
    "last": "2026-09-23T18:01:15.3963061Z"
+  },
+  {
+   "id": "94c37b2a8fd2",
+   "name": "Erster",
+   "runs": 1,
+   "wins": 0,
+   "enemies": 15,
+   "elites": 0,
+   "bosses": 0,
+   "last": "2026-09-23T20:37:13.9128239Z"
   }
  ]
 }
