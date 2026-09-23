@@ -10,7 +10,13 @@ This script, run by .github/workflows/ingest.yml, reads the channel with a bot t
     retries an upload it did not see land) is recognised by its hash and skipped
   * adds one row to runs/index.csv
 
+and then rewrites leaderboard.json — the closed-alpha ranking the game's title screen shows: per player, runs
+played, wins, enemies felled, elite fights and boss fights won. It is rebuilt from every filed recording each
+time (never added to), so it can never drift from the files; the kill counts come from each recording's
+Tallies, which older recordings do not have (they count as runs and wins only).
+
 state/last_message_id remembers how far the channel has been read. Standard library only.
+`python3 tools/ingest.py --leaderboard` rebuilds the ranking without reading Discord.
 """
 import csv
 import hashlib
@@ -26,6 +32,7 @@ ROOT = Path(__file__).resolve().parent.parent
 RUNS = ROOT / "runs"
 INDEX = RUNS / "index.csv"
 STATE = ROOT / "state" / "last_message_id"
+LEADERBOARD = ROOT / "leaderboard.json"
 MAX_BYTES = 2_000_000
 MAX_ANSWERS = 500_000
 COLUMNS = ["ended_utc", "player", "player_id", "seed", "character", "result", "reached", "answers",
@@ -119,7 +126,44 @@ def file_one(data, known):
     return None
 
 
+def write_leaderboard():
+    """Every player's totals across every filed recording, newest name kept."""
+    players = {}
+    for path in sorted(RUNS.glob("*/*.json")):
+        try:
+            recording = json.loads(path.read_bytes())
+        except ValueError:
+            continue
+        if valid(recording) is not None:
+            continue
+        player = recording["Player"]
+        ended = recording.get("EndedUtc") or recording.get("StartedUtc") or ""
+        entry = players.setdefault(player["Id"], {
+            "id": player["Id"], "name": player["Name"], "runs": 0, "wins": 0,
+            "enemies": 0, "elites": 0, "bosses": 0, "last": ""})
+        if ended >= entry["last"]:
+            entry["last"] = ended
+            entry["name"] = player["Name"]
+        tallies = recording.get("Tallies") or {}
+        entry["runs"] += 1
+        entry["wins"] += 1 if recording.get("Result") == "Victory" else 0
+        for key in ("enemies", "elites", "bosses"):
+            value = tallies.get(key, 0)
+            entry[key] += value if isinstance(value, int) and 0 <= value < 100_000 else 0
+    board = {
+        "generated_utc": max((p["last"] for p in players.values()), default=""),
+        "players": sorted(players.values(), key=lambda p: (-p["runs"], p["name"].lower())),
+    }
+    text = json.dumps(board, indent=1, ensure_ascii=False) + "\n"
+    if not LEADERBOARD.exists() or LEADERBOARD.read_text() != text:
+        LEADERBOARD.write_text(text)
+    print(f"leaderboard: {len(players)} players")
+
+
 def main():
+    if "--leaderboard" in sys.argv:
+        write_leaderboard()
+        return
     token = os.environ["DISCORD_BOT_TOKEN"]
     channel = os.environ["DISCORD_CHANNEL_ID"]
     webhook = os.environ.get("DISCORD_WEBHOOK_ID", "")
@@ -154,6 +198,7 @@ def main():
     STATE.parent.mkdir(parents=True, exist_ok=True)
     STATE.write_text(after + "\n")
     print(f"filed {filed}, skipped {skipped}, read up to message {after}")
+    write_leaderboard()
 
 
 if __name__ == "__main__":
