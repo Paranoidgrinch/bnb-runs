@@ -16,6 +16,13 @@ A whole run is a few kilobytes.
   engine build and content hash.
 - `runs/<player>-<id>/<date>-seed<seed>-<result>-<hash>.json` — the recordings. The id tells two players with
   the same name apart.
+- `leaderboard.json` — the closed-alpha ranking the game's title screen shows (runs, wins, enemies, elite and
+  boss fights won, per player).
+- `reports/cards.md` / `.csv` — per card: offered and taken as a pick, seen and bought in shops, struck from a
+  deck, played, and the win rate of the runs that took it.
+- `reports/feedback.md` / `.csv` — every Form B-7 filed at the end of a run: a 1–5 "was that fair?" and a line.
+- All three are rebuilt from the recordings on every ingest; `python3 tools/ingest.py --leaderboard` rebuilds
+  them by hand.
 - `tools/ingest.py` + `.github/workflows/ingest.yml` — the collector (hourly, or run it by hand under
   *Actions → Ingest runs from Discord → Run workflow*).
 

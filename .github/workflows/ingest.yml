@@ -27,7 +27,7 @@ jobs:
         run: |
           git config user.name "bnb-runs ingest"
           git config user.email "actions@users.noreply.github.com"
-          git add runs state leaderboard.json
+          git add runs state leaderboard.json reports
           if git diff --cached --quiet; then
             echo "nothing new"
           else
