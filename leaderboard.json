@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-09-25T12:51:47.8879984Z",
+ "generated_utc": "2026-09-25T15:15:06.7727773Z",
  "players": [
   {
    "id": "8ef75b3f4fc7",
@@ -10,6 +10,16 @@
    "elites": 1,
    "bosses": 0,
    "last": "2026-09-23T18:01:15.3963061Z"
+  },
+  {
+   "id": "08d139c2c9fd",
+   "name": "Sandale",
+   "runs": 2,
+   "wins": 0,
+   "enemies": 85,
+   "elites": 12,
+   "bosses": 8,
+   "last": "2026-09-25T15:15:06.7727773Z"
   },
   {
    "id": "f4e9fc8dec0c",
@@ -60,16 +70,6 @@
    "elites": 0,
    "bosses": 2,
    "last": "2026-09-24T20:57:37.8856973Z"
-  },
-  {
-   "id": "08d139c2c9fd",
-   "name": "Sandale",
-   "runs": 1,
-   "wins": 0,
-   "enemies": 79,
-   "elites": 12,
-   "bosses": 8,
-   "last": "2026-09-25T12:51:47.8879984Z"
   },
   {
    "id": "28ce061daa8f",
