@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-09-24T20:57:37.8856973Z",
+ "generated_utc": "2026-09-25T12:51:47.8879984Z",
  "players": [
   {
    "id": "8ef75b3f4fc7",
@@ -22,6 +22,16 @@
    "last": "2026-09-24T11:01:45.4066332Z"
   },
   {
+   "id": "724ceaf49788",
+   "name": "Derin Büro",
+   "runs": 1,
+   "wins": 0,
+   "enemies": 60,
+   "elites": 7,
+   "bosses": 6,
+   "last": "2026-09-25T12:16:29.0212302Z"
+  },
+  {
    "id": "94c37b2a8fd2",
    "name": "Erster",
    "runs": 1,
@@ -32,6 +42,16 @@
    "last": "2026-09-23T20:37:13.9128239Z"
   },
   {
+   "id": "b55c14117975",
+   "name": "Quintus",
+   "runs": 1,
+   "wins": 0,
+   "enemies": 20,
+   "elites": 0,
+   "bosses": 2,
+   "last": "2026-09-25T11:50:35.7661752Z"
+  },
+  {
    "id": "c71b7dcb6ee4",
    "name": "Quintus",
    "runs": 1,
@@ -40,6 +60,16 @@
    "elites": 0,
    "bosses": 2,
    "last": "2026-09-24T20:57:37.8856973Z"
+  },
+  {
+   "id": "08d139c2c9fd",
+   "name": "Sandale",
+   "runs": 1,
+   "wins": 0,
+   "enemies": 79,
+   "elites": 12,
+   "bosses": 8,
+   "last": "2026-09-25T12:51:47.8879984Z"
   },
   {
    "id": "28ce061daa8f",
