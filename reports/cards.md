@@ -67,27 +67,27 @@ once. Rebuilt with every ingest — do not edit.
 | clerks_familiar | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | grand_citation | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | mortgaged_aegis | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| reciprocal_edict | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | tallow_budget | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | tallow_judgment | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | wax_indemnity | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | backlog_charge | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | binding_fee | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| borrowed_candle | 3 | 1 | 33% | 0 | 0 | 0 | 5 | 1 | 0% |
+| contempt_finding | 3 | 1 | 33% | 0 | 0 | 0 | 0 | 1 | 0% |
 | dead_letter_office | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | guest_right | 3 | 1 | 33% | 0 | 0 | 0 | 4 | 1 | 0% |
 | hedge_hospitality | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | moonlit_counterfeit | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | oath_of_refusal | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | presumption_of_error | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| reciprocal_edict | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | standing_citation | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | usurers_moon | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | wastepaper_bastion | 3 | 1 | 33% | 0 | 0 | 0 | 4 | 1 | 0% |
 | blacklisted | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | blood_redaction | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | blood_testimony | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| borrowed_candle | 2 | 1 | 50% | 0 | 0 | 0 | 5 | 1 | 0% |
 | clutter_concordance | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| contempt_finding | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | crossed_sigil | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | customary_due | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | debt_ouroboros | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
@@ -126,6 +126,7 @@ once. Rebuilt with every ingest — do not edit.
 | wax_reliquary | 1 | 1 | 100% | 0 | 0 | 0 | 2 | 1 | 0% |
 | witness_knot | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | acknowledge_service | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
+| adders_nip | 0 | 0 |  | 0 | 0 | 0 | 3 | 0 |  |
 | authorized_entry | 0 | 0 |  | 0 | 0 | 0 | 6 | 0 |  |
 | authorized_expedition | 0 | 0 |  | 0 | 0 | 0 | 2 | 0 |  |
 | break_the_burden_seal | 0 | 0 |  | 0 | 0 | 0 | 2 | 0 |  |
@@ -137,6 +138,7 @@ once. Rebuilt with every ingest — do not edit.
 | cite_the_old_survey | 0 | 0 |  | 0 | 0 | 0 | 13 | 0 |  |
 | clause_extension | 0 | 0 |  | 0 | 0 | 0 | 2 | 0 |  |
 | clause_protective | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
+| crooked_finger | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
 | duplicate_copy | 0 | 0 |  | 0 | 0 | 0 | 18 | 0 |  |
 | file_the_request | 0 | 0 |  | 0 | 0 | 0 | 8 | 0 |  |
 | fragment_of_access | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
@@ -144,6 +146,8 @@ once. Rebuilt with every ingest — do not edit.
 | make_amends | 0 | 0 |  | 0 | 0 | 0 | 7 | 0 |  |
 | misfiled_paper | 0 | 0 |  | 0 | 0 | 0 | 6 | 0 |  |
 | missing_signature | 0 | 0 |  | 0 | 0 | 0 | 3 | 0 |  |
+| nettle_tea | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
+| pot_lid | 0 | 0 |  | 0 | 0 | 0 | 3 | 0 |  |
 | revise_body_shall_bear | 0 | 0 |  | 0 | 0 | 0 | 4 | 0 |  |
 | revise_hand_shall_hold_two | 0 | 0 |  | 0 | 0 | 0 | 3 | 0 |  |
 | revise_measures_withheld | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
