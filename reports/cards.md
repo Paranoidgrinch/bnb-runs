@@ -40,7 +40,9 @@ once. Rebuilt with every ingest — do not edit.
 | foreclosure | 10 | 1 | 10% | 0 | 0 | 0 | 7 | 1 | 0% |
 | fine_print_hex | 9 | 4 | 44% | 0 | 0 | 0 | 36 | 4 | 0% |
 | red_ink_doctrine | 9 | 3 | 33% | 0 | 0 | 0 | 18 | 2 | 0% |
+| adders_nip | 8 | 0 | 0% | 0 | 0 | 0 | 4 | 0 |  |
 | counter_ward | 8 | 2 | 25% | 0 | 0 | 0 | 24 | 2 | 0% |
+| pot_lid | 8 | 0 | 0% | 0 | 0 | 0 | 4 | 0 |  |
 | seizure_writ | 8 | 1 | 12% | 0 | 0 | 1 | 1 | 1 | 0% |
 | black_ledger | 7 | 3 | 43% | 0 | 0 | 0 | 19 | 3 | 0% |
 | conditional_approval | 7 | 3 | 43% | 0 | 0 | 0 | 19 | 3 | 0% |
@@ -87,6 +89,7 @@ once. Rebuilt with every ingest — do not edit.
 | blacklisted | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | blood_redaction | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | blood_testimony | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| briar_sweep | 2 | 1 | 50% | 0 | 0 | 0 | 0 | 1 | 0% |
 | clutter_concordance | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | crossed_sigil | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | customary_due | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
@@ -95,6 +98,7 @@ once. Rebuilt with every ingest — do not edit.
 | funeral_index | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | hedge_covenant | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | marginalia | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| nettle_tea | 2 | 0 | 0% | 0 | 0 | 0 | 2 | 0 |  |
 | notarys_tithe | 2 | 1 | 50% | 0 | 0 | 0 | 4 | 1 | 0% |
 | null_catalogue | 2 | 1 | 50% | 0 | 0 | 1 | 0 | 1 | 0% |
 | palimpsest_order | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
@@ -109,6 +113,7 @@ once. Rebuilt with every ingest — do not edit.
 | cartouche_reckoning | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | clerical_discretion | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | countermanded_grace | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| crooked_finger | 1 | 1 | 100% | 0 | 0 | 0 | 1 | 1 | 0% |
 | crown_repossession | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | exemplary_sentence | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | ghost_register | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
@@ -126,7 +131,6 @@ once. Rebuilt with every ingest — do not edit.
 | wax_reliquary | 1 | 1 | 100% | 0 | 0 | 0 | 2 | 1 | 0% |
 | witness_knot | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | acknowledge_service | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
-| adders_nip | 0 | 0 |  | 0 | 0 | 0 | 3 | 0 |  |
 | authorized_entry | 0 | 0 |  | 0 | 0 | 0 | 6 | 0 |  |
 | authorized_expedition | 0 | 0 |  | 0 | 0 | 0 | 2 | 0 |  |
 | break_the_burden_seal | 0 | 0 |  | 0 | 0 | 0 | 2 | 0 |  |
@@ -138,7 +142,6 @@ once. Rebuilt with every ingest — do not edit.
 | cite_the_old_survey | 0 | 0 |  | 0 | 0 | 0 | 13 | 0 |  |
 | clause_extension | 0 | 0 |  | 0 | 0 | 0 | 2 | 0 |  |
 | clause_protective | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
-| crooked_finger | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
 | duplicate_copy | 0 | 0 |  | 0 | 0 | 0 | 18 | 0 |  |
 | file_the_request | 0 | 0 |  | 0 | 0 | 0 | 8 | 0 |  |
 | fragment_of_access | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
@@ -146,8 +149,6 @@ once. Rebuilt with every ingest — do not edit.
 | make_amends | 0 | 0 |  | 0 | 0 | 0 | 7 | 0 |  |
 | misfiled_paper | 0 | 0 |  | 0 | 0 | 0 | 6 | 0 |  |
 | missing_signature | 0 | 0 |  | 0 | 0 | 0 | 3 | 0 |  |
-| nettle_tea | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
-| pot_lid | 0 | 0 |  | 0 | 0 | 0 | 3 | 0 |  |
 | revise_body_shall_bear | 0 | 0 |  | 0 | 0 | 0 | 4 | 0 |  |
 | revise_hand_shall_hold_two | 0 | 0 |  | 0 | 0 | 0 | 3 | 0 |  |
 | revise_measures_withheld | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
