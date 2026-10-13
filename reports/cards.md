@@ -6,26 +6,26 @@ once. Rebuilt with every ingest — do not edit.
 
 | card | offered | taken | take rate | shop seen | bought | removed | plays | runs taken | win rate |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| cower_behind_a_desk | 106 | 6 | 6% | 0 | 0 | 4 | 437 | 2 | 0% |
-| paper_cut | 77 | 4 | 5% | 0 | 0 | 10 | 486 | 2 | 0% |
+| cower_behind_a_desk | 114 | 6 | 5% | 0 | 0 | 4 | 460 | 2 | 0% |
+| paper_cut | 85 | 4 | 5% | 0 | 0 | 10 | 515 | 2 | 0% |
 | form_of_ill_intent | 66 | 6 | 9% | 0 | 0 | 0 | 427 | 3 | 0% |
 | protective_adjournment | 46 | 7 | 15% | 0 | 0 | 2 | 106 | 4 | 0% |
-| occult_precedent | 43 | 8 | 19% | 0 | 0 | 0 | 139 | 7 | 0% |
+| occult_precedent | 44 | 8 | 18% | 0 | 0 | 0 | 139 | 7 | 0% |
+| deferred_hex | 42 | 7 | 17% | 0 | 0 | 0 | 120 | 4 | 0% |
+| inkblot_verdict | 42 | 10 | 24% | 0 | 0 | 0 | 147 | 6 | 0% |
 | cauldron_copy | 41 | 7 | 17% | 0 | 0 | 0 | 108 | 4 | 0% |
-| deferred_hex | 41 | 6 | 15% | 0 | 0 | 0 | 118 | 3 | 0% |
-| inkblot_verdict | 41 | 9 | 22% | 0 | 0 | 0 | 139 | 5 | 0% |
-| cursed_addendum | 36 | 8 | 22% | 0 | 0 | 0 | 101 | 5 | 0% |
-| petty_objection | 29 | 7 | 24% | 0 | 0 | 0 | 41 | 5 | 0% |
+| cursed_addendum | 37 | 9 | 24% | 0 | 0 | 0 | 102 | 6 | 0% |
+| petty_objection | 30 | 7 | 23% | 0 | 0 | 0 | 41 | 5 | 0% |
+| waxing_authority | 28 | 4 | 14% | 0 | 0 | 0 | 29 | 2 | 0% |
+| deskward | 27 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | sealed_mantle | 27 | 9 | 33% | 0 | 0 | 0 | 173 | 4 | 0% |
-| waxing_authority | 27 | 4 | 15% | 0 | 0 | 0 | 29 | 2 | 0% |
+| strong_binder | 26 | 4 | 15% | 0 | 0 | 0 | 239 | 4 | 0% |
 | candle_allowance | 25 | 5 | 20% | 0 | 0 | 0 | 76 | 3 | 0% |
-| deskward | 25 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| permit_a38 | 24 | 4 | 17% | 0 | 0 | 0 | 235 | 3 | 0% |
-| strong_binder | 24 | 3 | 12% | 0 | 0 | 0 | 230 | 3 | 0% |
-| notarial_press | 20 | 3 | 15% | 0 | 0 | 0 | 29 | 3 | 0% |
+| permit_a38 | 25 | 5 | 20% | 0 | 0 | 0 | 245 | 4 | 0% |
+| notarial_press | 21 | 3 | 14% | 0 | 0 | 0 | 29 | 3 | 0% |
 | seal_of_concern | 20 | 3 | 15% | 0 | 0 | 0 | 11 | 2 | 0% |
+| secure_misfiling | 20 | 2 | 10% | 0 | 0 | 1 | 33 | 2 | 0% |
 | certified_kindling | 19 | 1 | 5% | 0 | 0 | 0 | 0 | 1 | 0% |
-| secure_misfiling | 18 | 2 | 11% | 0 | 0 | 1 | 33 | 2 | 0% |
 | summary_judgment | 18 | 3 | 17% | 0 | 0 | 0 | 87 | 3 | 0% |
 | cross_filing | 16 | 3 | 19% | 0 | 0 | 0 | 85 | 3 | 0% |
 | sanctioned_charm | 16 | 1 | 6% | 0 | 0 | 0 | 75 | 1 | 0% |
@@ -35,13 +35,13 @@ once. Rebuilt with every ingest — do not edit.
 | mortgage_sigil | 13 | 4 | 31% | 0 | 0 | 0 | 15 | 3 | 0% |
 | privy_seal | 13 | 2 | 15% | 0 | 0 | 0 | 10 | 1 | 0% |
 | forfeit_seal | 12 | 3 | 25% | 0 | 0 | 0 | 40 | 3 | 0% |
+| tallow_reserve | 12 | 1 | 8% | 0 | 0 | 0 | 65 | 1 | 0% |
 | silent_hearing | 11 | 1 | 9% | 0 | 0 | 1 | 57 | 1 | 0% |
-| tallow_reserve | 11 | 1 | 9% | 0 | 0 | 0 | 65 | 1 | 0% |
 | foreclosure | 10 | 1 | 10% | 0 | 0 | 0 | 7 | 1 | 0% |
+| counter_ward | 9 | 2 | 22% | 0 | 0 | 0 | 24 | 2 | 0% |
 | fine_print_hex | 9 | 4 | 44% | 0 | 0 | 0 | 36 | 4 | 0% |
 | red_ink_doctrine | 9 | 3 | 33% | 0 | 0 | 0 | 18 | 2 | 0% |
 | adders_nip | 8 | 0 | 0% | 0 | 0 | 0 | 4 | 0 |  |
-| counter_ward | 8 | 2 | 25% | 0 | 0 | 0 | 24 | 2 | 0% |
 | pot_lid | 8 | 0 | 0% | 0 | 0 | 0 | 4 | 0 |  |
 | seizure_writ | 8 | 1 | 12% | 0 | 0 | 1 | 1 | 1 | 0% |
 | black_ledger | 7 | 3 | 43% | 0 | 0 | 0 | 19 | 3 | 0% |
@@ -49,6 +49,7 @@ once. Rebuilt with every ingest — do not edit.
 | errata_furnace | 7 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | notary_beetle | 7 | 1 | 14% | 0 | 0 | 0 | 8 | 1 | 0% |
 | seal_dividend | 7 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| borrowed_candle | 6 | 2 | 33% | 0 | 0 | 0 | 8 | 2 | 0% |
 | broom_dispatch | 6 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | consecrated_testament | 6 | 1 | 17% | 0 | 0 | 0 | 45 | 1 | 0% |
 | guestbook_oath | 6 | 3 | 50% | 0 | 0 | 0 | 72 | 2 | 0% |
@@ -62,6 +63,7 @@ once. Rebuilt with every ingest — do not edit.
 | licensed_disposal | 5 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | malediction_review | 5 | 1 | 20% | 0 | 0 | 0 | 11 | 1 | 0% |
 | night_docket | 5 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| tallow_budget | 5 | 1 | 20% | 0 | 0 | 0 | 3 | 1 | 0% |
 | threefold_injunction | 5 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | waxen_surety | 5 | 1 | 20% | 0 | 0 | 0 | 14 | 1 | 0% |
 | witchmark_citation | 5 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
@@ -70,12 +72,10 @@ once. Rebuilt with every ingest — do not edit.
 | grand_citation | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | mortgaged_aegis | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | reciprocal_edict | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| tallow_budget | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | tallow_judgment | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | wax_indemnity | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | backlog_charge | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | binding_fee | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| borrowed_candle | 3 | 1 | 33% | 0 | 0 | 0 | 5 | 1 | 0% |
 | contempt_finding | 3 | 1 | 33% | 0 | 0 | 0 | 0 | 1 | 0% |
 | dead_letter_office | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | guest_right | 3 | 1 | 33% | 0 | 0 | 0 | 4 | 1 | 0% |
