@@ -1,48 +1,47 @@
 # bnb-runs
 
-Every run played of **Bureaucrats & Broomsticks**, recorded by the game and filed here by player.
+Recordings of every played run of Bureaucrats & Broomsticks, filed by player. Part of the game's four
+repositories: [RogueDeck-Core](https://github.com/Paranoidgrinch/RogueDeck-Core) (engine),
+[bnb-content](https://github.com/Paranoidgrinch/bnb-content) (content),
+[bnb-godot](https://github.com/Paranoidgrinch/bnb-godot) (frontend) and bnb-runs (recordings).
 
-Part of the game's four repositories: [RogueDeck-Core](https://github.com/Paranoidgrinch/RogueDeck-Core)
-(engine) · [bnb-content](https://github.com/Paranoidgrinch/bnb-content) (content) ·
-[bnb-godot](https://github.com/Paranoidgrinch/bnb-godot) (frontend) · **bnb-runs** (recorded runs).
+A recording contains only what cannot be recomputed: the seed, the starting conditions (character, map
+generator, meta profile) and every answer the player gave, in order (doors, cards, targets, shop items, end
+of turn). Because the engine is deterministic, seed and answers reproduce the whole run. A fingerprint per
+room (act, room, HP, deck, relics, resources) is stored as well, so a diverging replay reports where it
+diverged. A run takes a few kilobytes.
 
-A recording is not a summary of a run. It is the run itself, reduced to what cannot be recomputed: the
-**seed**, how the run began (character, map generator, the meta profile), and **every answer the player
-gave**, in order — which door, which card, which target, which shop item, end turn. The engine is
-deterministic, so seed + answers replay the whole run step for step. One fingerprint per room (act, room,
-hp, deck, relics, resources) is stored alongside, so a replay that goes wrong says where.
+## Contents
 
-A whole run is a few kilobytes.
-
-## Where things are
-
-- `runs/index.csv` — one row per run: when, who, seed, character, result, how far it got, how many answers,
+- `runs/index.csv`: one row per run with date, player, seed, character, result, progress, number of answers,
   engine build and content hash.
-- `runs/<player>-<id>/<date>-seed<seed>-<result>-<hash>.json` — the recordings. The id tells two players with
-  the same name apart.
-- `leaderboard.json` — the closed-alpha ranking the game's title screen shows (runs, wins, enemies, elite and
-  boss fights won, per player).
-- `reports/cards.md` / `.csv` — per card: offered and taken as a pick, seen and bought in shops, struck from a
-  deck, played, and the win rate of the runs that took it.
-- `reports/feedback.md` / `.csv` — every Form B-7 filed at the end of a run: a 1–5 "was that fair?" and a line.
-- All three are rebuilt from the recordings on every ingest; `python3 tools/ingest.py --leaderboard` rebuilds
-  them by hand.
-- `tools/ingest.py` + `.github/workflows/ingest.yml` — the collector (hourly, or run it by hand under
-  *Actions → Ingest runs from Discord → Run workflow*).
+- `runs/<player>-<id>/<date>-seed<seed>-<result>-<hash>.json`: the recordings. The id distinguishes players
+  with the same name.
+- `leaderboard.json`: the closed-alpha ranking shown on the game's title screen (runs, wins, enemies, elite
+  and boss fights won per player).
+- `reports/cards.md` and `.csv`: per card, how often it was offered and taken, seen and bought in shops,
+  removed from a deck and played, and the win rate of runs that took it.
+- `reports/feedback.md` and `.csv`: the end-of-run feedback forms (Form B-7) with a 1 to 5 fairness rating
+  and a comment.
+- `tools/ingest.py` and `.github/workflows/ingest.yml`: the collector. It runs hourly or manually under
+  Actions, "Ingest runs from Discord". All reports are rebuilt on every ingest;
+  `python3 tools/ingest.py --leaderboard` rebuilds them by hand.
 
-## How a run gets here
+## How runs arrive
 
-1. The game records the run while it is played (`RogueDeck-Core`: `RunRecorder`), saves the recording next to
-   the save file, and when the run ends — won, lost, or abandoned by starting another — posts it to a Discord
-   webhook (`bnb-godot`: `scripts/RunLog.cs`). A run that could not be sent waits and goes with the next start.
-2. This repository's workflow reads the channel with a bot, accepts only messages from the game's webhook,
-   checks each file, skips duplicates, and commits it here.
+1. The game records the run while it is played (`RunRecorder` in RogueDeck-Core) and stores the recording
+   next to the save file. When the run ends (won, lost, or abandoned by starting a new one), it posts the
+   recording to a Discord webhook (`scripts/RunLog.cs` in bnb-godot). A recording that could not be sent is
+   sent with the next start.
+2. The workflow in this repository reads the channel with a bot, accepts only messages from the game's
+   webhook, validates each file, skips duplicates and commits the rest.
 
-Settings: secret `DISCORD_BOT_TOKEN`, variables `DISCORD_CHANNEL_ID` and `DISCORD_WEBHOOK_ID`.
+Configuration: secret `DISCORD_BOT_TOKEN`, variables `DISCORD_CHANNEL_ID` and `DISCORD_WEBHOOK_ID`.
 
 ## Replaying a run
 
-From a `RogueDeck-Core` checkout, against the content the run was played on (the recording names its hash):
+From a RogueDeck-Core checkout, with the content version the run was played on (the recording contains its
+hash):
 
 ```bash
 dotnet run --project src/RogueDeck.Bot.Cli -c Release -- \
@@ -51,11 +50,10 @@ dotnet run --project src/RogueDeck.Bot.Cli -c Release -- \
   --decisions decisions.jsonl
 ```
 
-It prints `REPRODUCED` or the first room where the replay differs. `--decisions` writes one JSON object per
-answer — the situation (act, room, hp), what was on offer (doors, cards, the hand) and what was chosen: the
-view to read a run by, or to train on.
+The output is `REPRODUCED` or the first room where the replay differs. `--decisions` writes one JSON object
+per answer with the situation (act, room, HP), the options offered (doors, cards, hand) and the choice made.
 
 ## License
 
-The collector code is licensed under [PolyForm Noncommercial 1.0.0](LICENSE). Recordings are playtest data of
-the game and may be used for noncommercial analysis with credit.
+The collector code is licensed under [PolyForm Noncommercial 1.0.0](LICENSE). The recordings are playtest
+data and may be used for noncommercial analysis with attribution.
