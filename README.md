@@ -2,6 +2,10 @@
 
 Every run played of **Bureaucrats & Broomsticks**, recorded by the game and filed here by player.
 
+Part of the game's four repositories: [RogueDeck-Core](https://github.com/Paranoidgrinch/RogueDeck-Core)
+(engine) · [bnb-content](https://github.com/Paranoidgrinch/bnb-content) (content) ·
+[bnb-godot](https://github.com/Paranoidgrinch/bnb-godot) (frontend) · **bnb-runs** (recorded runs).
+
 A recording is not a summary of a run. It is the run itself, reduced to what cannot be recomputed: the
 **seed**, how the run began (character, map generator, the meta profile), and **every answer the player
 gave**, in order — which door, which card, which target, which shop item, end turn. The engine is
@@ -50,3 +54,8 @@ dotnet run --project src/RogueDeck.Bot.Cli -c Release -- \
 It prints `REPRODUCED` or the first room where the replay differs. `--decisions` writes one JSON object per
 answer — the situation (act, room, hp), what was on offer (doors, cards, the hand) and what was chosen: the
 view to read a run by, or to train on.
+
+## License
+
+The collector code is licensed under [PolyForm Noncommercial 1.0.0](LICENSE). Recordings are playtest data of
+the game and may be used for noncommercial analysis with credit.
