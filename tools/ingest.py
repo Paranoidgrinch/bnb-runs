@@ -120,7 +120,8 @@ def file_one(data, known):
             "player": player["Name"],
             "player_id": player["Id"],
             "seed": start["Seed"],
-            "character": start.get("Character") or "",
+            # A table's run names its whole party, seat by seat.
+            "character": "+".join(start.get("Party") or []) or start.get("Character") or "",
             "result": result,
             "reached": rooms[-1]["State"].split(" | ")[0] if rooms else "",
             "answers": len(recording["Answers"]),
@@ -145,20 +146,23 @@ def write_leaderboard():
             continue
         if valid(recording) is not None:
             continue
-        player = recording["Player"]
         ended = recording.get("EndedUtc") or recording.get("StartedUtc") or ""
-        entry = players.setdefault(player["Id"], {
-            "id": player["Id"], "name": player["Name"], "runs": 0, "wins": 0,
-            "enemies": 0, "elites": 0, "bosses": 0, "last": ""})
-        if ended >= entry["last"]:
-            entry["last"] = ended
-            entry["name"] = player["Name"]
         tallies = recording.get("Tallies") or {}
-        entry["runs"] += 1
-        entry["wins"] += 1 if recording.get("Result") == "Victory" else 0
-        for key in ("enemies", "elites", "bosses"):
-            value = tallies.get(key, 0)
-            entry[key] += value if isinstance(value, int) and 0 <= value < 100_000 else 0
+        # A table's run counts for everyone who sat at it; the host only kept the recording.
+        table = recording.get("Table")
+        seated = [p for p in table if isinstance(p, dict) and p.get("Id")] if isinstance(table, list) else []
+        for player in seated or [recording["Player"]]:
+            entry = players.setdefault(player["Id"], {
+                "id": player["Id"], "name": player.get("Name") or "unnamed", "runs": 0, "wins": 0,
+                "enemies": 0, "elites": 0, "bosses": 0, "last": ""})
+            if ended >= entry["last"]:
+                entry["last"] = ended
+                entry["name"] = player.get("Name") or entry["name"]
+            entry["runs"] += 1
+            entry["wins"] += 1 if recording.get("Result") == "Victory" else 0
+            for key in ("enemies", "elites", "bosses"):
+                value = tallies.get(key, 0)
+                entry[key] += value if isinstance(value, int) and 0 <= value < 100_000 else 0
     board = {
         "generated_utc": max((p["last"] for p in players.values()), default=""),
         "players": sorted(players.values(), key=lambda p: (-p["runs"], p["name"].lower())),
