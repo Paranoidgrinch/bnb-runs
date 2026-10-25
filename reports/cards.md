@@ -18,7 +18,7 @@ once. Rebuilt with every ingest — do not edit.
 | petty_objection | 30 | 7 | 23% | 0 | 0 | 0 | 41 | 5 | 0% |
 | waxing_authority | 28 | 4 | 14% | 0 | 0 | 0 | 29 | 2 | 0% |
 | deskward | 27 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| sealed_mantle | 27 | 9 | 33% | 2 | 0 | 0 | 173 | 4 | 0% |
+| sealed_mantle | 27 | 9 | 33% | 3 | 0 | 0 | 173 | 4 | 0% |
 | strong_binder | 26 | 4 | 15% | 0 | 0 | 0 | 239 | 4 | 0% |
 | candle_allowance | 25 | 5 | 20% | 0 | 0 | 0 | 76 | 3 | 0% |
 | permit_a38 | 25 | 5 | 20% | 0 | 0 | 0 | 245 | 4 | 0% |
@@ -30,29 +30,32 @@ once. Rebuilt with every ingest — do not edit.
 | cross_filing | 16 | 3 | 19% | 0 | 0 | 0 | 85 | 3 | 0% |
 | sanctioned_charm | 16 | 1 | 6% | 0 | 0 | 0 | 75 | 1 | 0% |
 | dubious_authority | 15 | 1 | 7% | 0 | 0 | 0 | 73 | 1 | 0% |
-| tallow_reserve | 14 | 2 | 14% | 0 | 0 | 0 | 66 | 2 | 0% |
+| tallow_reserve | 14 | 2 | 14% | 2 | 0 | 0 | 66 | 2 | 0% |
 | forfeit_seal | 13 | 3 | 23% | 0 | 0 | 0 | 40 | 3 | 0% |
 | grave_lien | 13 | 3 | 23% | 0 | 0 | 0 | 37 | 2 | 0% |
 | hex_circular | 13 | 2 | 15% | 0 | 0 | 0 | 32 | 2 | 0% |
-| mortgage_sigil | 13 | 4 | 31% | 0 | 0 | 0 | 15 | 3 | 0% |
+| mortgage_sigil | 13 | 4 | 31% | 3 | 0 | 0 | 15 | 3 | 0% |
 | privy_seal | 13 | 2 | 15% | 0 | 0 | 0 | 10 | 1 | 0% |
-| silent_hearing | 11 | 1 | 9% | 0 | 0 | 1 | 57 | 1 | 0% |
+| silent_hearing | 12 | 1 | 8% | 0 | 0 | 1 | 57 | 1 | 0% |
 | foreclosure | 10 | 1 | 10% | 0 | 0 | 0 | 7 | 1 | 0% |
 | counter_ward | 9 | 2 | 22% | 0 | 0 | 0 | 24 | 2 | 0% |
 | fine_print_hex | 9 | 4 | 44% | 0 | 0 | 0 | 36 | 4 | 0% |
+| notary_beetle | 9 | 1 | 11% | 0 | 0 | 0 | 8 | 1 | 0% |
 | red_ink_doctrine | 9 | 3 | 33% | 0 | 0 | 0 | 18 | 2 | 0% |
 | adders_nip | 8 | 0 | 0% | 0 | 0 | 0 | 4 | 0 |  |
-| notary_beetle | 8 | 1 | 12% | 0 | 0 | 0 | 8 | 1 | 0% |
 | pot_lid | 8 | 0 | 0% | 0 | 0 | 0 | 4 | 0 |  |
 | seizure_writ | 8 | 1 | 12% | 0 | 0 | 1 | 1 | 1 | 0% |
 | black_ledger | 7 | 3 | 43% | 0 | 0 | 0 | 19 | 3 | 0% |
 | conditional_approval | 7 | 3 | 43% | 0 | 0 | 0 | 19 | 3 | 0% |
 | errata_furnace | 7 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_buckler_up | 7 | 0 | 0% | 0 | 0 | 1 | 56 | 0 |  |
+| lt_watch_cut | 7 | 0 | 0% | 0 | 0 | 1 | 102 | 0 |  |
 | seal_dividend | 7 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | borrowed_candle | 6 | 2 | 33% | 0 | 0 | 0 | 8 | 2 | 0% |
 | broom_dispatch | 6 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | consecrated_testament | 6 | 1 | 17% | 0 | 0 | 0 | 45 | 1 | 0% |
 | guestbook_oath | 6 | 3 | 50% | 0 | 0 | 0 | 72 | 2 | 0% |
+| malediction_review | 6 | 1 | 17% | 2 | 0 | 0 | 11 | 1 | 0% |
 | skeleton_staff | 6 | 1 | 17% | 0 | 0 | 0 | 2 | 1 | 0% |
 | stay_of_execution | 6 | 1 | 17% | 0 | 0 | 0 | 0 | 1 | 0% |
 | ash_register | 5 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
@@ -61,7 +64,6 @@ once. Rebuilt with every ingest — do not edit.
 | continuance | 5 | 1 | 20% | 0 | 0 | 0 | 36 | 1 | 0% |
 | formal_dissent | 5 | 1 | 20% | 0 | 0 | 0 | 4 | 1 | 0% |
 | licensed_disposal | 5 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| malediction_review | 5 | 1 | 20% | 2 | 0 | 0 | 11 | 1 | 0% |
 | night_docket | 5 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | tallow_budget | 5 | 1 | 20% | 0 | 0 | 0 | 3 | 1 | 0% |
 | threefold_injunction | 5 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
@@ -69,24 +71,27 @@ once. Rebuilt with every ingest — do not edit.
 | witchmark_citation | 5 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | candle_tribunal | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | clerks_familiar | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| contempt_finding | 4 | 1 | 25% | 0 | 0 | 0 | 0 | 1 | 0% |
 | grand_citation | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| lt_buckler_up | 4 | 0 | 0% | 0 | 0 | 0 | 23 | 0 |  |
-| lt_watch_cut | 4 | 0 | 0% | 0 | 0 | 0 | 37 | 0 |  |
+| lt_second_rank | 4 | 1 | 25% | 0 | 0 | 0 | 11 | 1 | 0% |
 | mortgaged_aegis | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | reciprocal_edict | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | tallow_judgment | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | wax_indemnity | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | backlog_charge | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | binding_fee | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| contempt_finding | 3 | 1 | 33% | 0 | 0 | 0 | 0 | 1 | 0% |
 | dead_letter_office | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | guest_right | 3 | 1 | 33% | 0 | 0 | 0 | 4 | 1 | 0% |
 | hedge_hospitality | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_bloody_cobbles | 3 | 1 | 33% | 0 | 0 | 0 | 10 | 1 | 0% |
+| lt_clenched_jaw | 3 | 1 | 33% | 0 | 0 | 0 | 17 | 1 | 0% |
+| lt_headlong | 3 | 3 | 100% | 0 | 0 | 0 | 12 | 2 | 0% |
+| lt_witness | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | moonlit_counterfeit | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | oath_of_refusal | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | presumption_of_error | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | standing_citation | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| usurers_moon | 3 | 0 | 0% | 4 | 0 | 0 | 0 | 0 |  |
+| usurers_moon | 3 | 0 | 0% | 6 | 0 | 0 | 0 | 0 |  |
 | wastepaper_bastion | 3 | 1 | 33% | 0 | 0 | 0 | 4 | 1 | 0% |
 | blacklisted | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | blood_redaction | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
@@ -97,13 +102,21 @@ once. Rebuilt with every ingest — do not edit.
 | customary_due | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | debt_ouroboros | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | duplicate_copy | 2 | 1 | 50% | 0 | 0 | 2 | 28 | 1 | 0% |
+| false_signature | 2 | 0 | 0% | 2 | 0 | 0 | 0 | 0 |  |
 | final_attestation | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | funeral_index | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | hedge_covenant | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| lt_bloody_cobbles | 2 | 1 | 50% | 0 | 0 | 0 | 10 | 1 | 0% |
-| lt_clenched_jaw | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| lt_headlong | 2 | 2 | 100% | 0 | 0 | 0 | 8 | 1 | 0% |
-| lt_second_rank | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_armguard | 2 | 1 | 50% | 0 | 0 | 0 | 4 | 1 | 0% |
+| lt_braced_pike | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_broken_nose | 2 | 1 | 50% | 0 | 0 | 0 | 0 | 1 | 0% |
+| lt_first_orders | 2 | 1 | 50% | 0 | 0 | 0 | 24 | 1 | 0% |
+| lt_flank | 2 | 1 | 50% | 0 | 0 | 0 | 7 | 1 | 0% |
+| lt_last_bell | 2 | 1 | 50% | 2 | 0 | 0 | 26 | 1 | 0% |
+| lt_marked_man | 2 | 1 | 50% | 0 | 0 | 0 | 26 | 1 | 0% |
+| lt_new_stripes | 2 | 0 | 0% | 0 | 0 | 0 | 27 | 0 |  |
+| lt_roll_call | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_ruckus | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_split_lip | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | marginalia | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | nettle_tea | 2 | 0 | 0% | 0 | 0 | 0 | 2 | 0 |  |
 | notarys_tithe | 2 | 1 | 50% | 0 | 0 | 0 | 4 | 1 | 0% |
@@ -126,24 +139,26 @@ once. Rebuilt with every ingest — do not edit.
 | ghost_register | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | hearth_compact | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | last_office | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| lt_braced_pike | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| lt_broken_nose | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_buckle | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | lt_cadence | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | lt_double_file | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | lt_drum_major | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| lt_first_orders | 1 | 0 | 0% | 0 | 0 | 0 | 6 | 0 |  |
-| lt_flank | 1 | 1 | 100% | 0 | 0 | 0 | 7 | 1 | 0% |
+| lt_gatehouse | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | lt_heel_turn | 1 | 1 | 100% | 0 | 0 | 0 | 6 | 1 | 0% |
 | lt_insubordination | 1 | 1 | 100% | 0 | 0 | 0 | 1 | 1 | 0% |
-| lt_new_stripes | 1 | 0 | 0% | 0 | 0 | 0 | 14 | 0 |  |
+| lt_no_running | 1 | 0 | 0% | 3 | 0 | 0 | 0 | 0 |  |
 | lt_no_surrender | 1 | 1 | 100% | 0 | 0 | 0 | 1 | 1 | 0% |
 | lt_parade_ground | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| lt_roll_call | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_pike_butt | 1 | 0 | 0% | 2 | 0 | 0 | 0 | 0 |  |
+| lt_pursuit | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | lt_scabbard | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | lt_second_blade | 1 | 1 | 100% | 0 | 0 | 0 | 3 | 1 | 0% |
-| lt_service_record | 1 | 0 | 0% | 2 | 0 | 0 | 0 | 0 |  |
+| lt_service_record | 1 | 0 | 0% | 5 | 0 | 0 | 0 | 0 |  |
 | lt_shield_punch | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_signal | 1 | 1 | 100% | 0 | 0 | 0 | 7 | 1 | 0% |
+| lt_under_the_colours | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | lt_whetstone | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_whistle | 1 | 1 | 100% | 0 | 0 | 0 | 8 | 1 | 0% |
 | pending_matters | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | proxy_curse | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | rebuttal | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
@@ -167,21 +182,20 @@ once. Rebuilt with every ingest — do not edit.
 | cite_the_old_survey | 0 | 0 |  | 0 | 0 | 0 | 13 | 0 |  |
 | clause_extension | 0 | 0 |  | 0 | 0 | 0 | 2 | 0 |  |
 | clause_protective | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
-| dawn_summons | 0 | 0 |  | 2 | 0 | 0 | 0 | 0 |  |
-| false_signature | 0 | 0 |  | 2 | 0 | 0 | 0 | 0 |  |
+| dawn_summons | 0 | 0 |  | 3 | 0 | 0 | 0 | 0 |  |
 | file_the_request | 0 | 0 |  | 0 | 0 | 0 | 8 | 0 |  |
 | fragment_of_access | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
 | fragment_of_execution | 0 | 0 |  | 0 | 0 | 0 | 3 | 0 |  |
 | lt_arrest | 0 | 0 |  | 2 | 0 | 0 | 0 | 0 |  |
-| lt_front_rank | 0 | 0 |  | 2 | 0 | 0 | 0 | 0 |  |
+| lt_brevet | 0 | 0 |  | 3 | 0 | 0 | 0 | 0 |  |
+| lt_front_rank | 0 | 0 |  | 5 | 0 | 0 | 0 | 0 |  |
 | lt_gauntlet | 0 | 0 |  | 2 | 0 | 0 | 0 | 0 |  |
-| lt_last_bell | 0 | 0 |  | 2 | 0 | 0 | 0 | 0 |  |
-| lt_no_running | 0 | 0 |  | 2 | 0 | 0 | 0 | 0 |  |
-| lt_pike_butt | 0 | 0 |  | 2 | 0 | 0 | 0 | 0 |  |
+| lt_splintered_shield | 0 | 0 |  | 2 | 0 | 0 | 0 | 0 |  |
 | lt_testimony | 0 | 0 |  | 2 | 0 | 0 | 0 | 0 |  |
 | make_amends | 0 | 0 |  | 0 | 0 | 0 | 7 | 0 |  |
 | misfiled_paper | 0 | 0 |  | 0 | 0 | 0 | 6 | 0 |  |
 | missing_signature | 0 | 0 |  | 0 | 0 | 0 | 4 | 0 |  |
+| petition_for_priority | 0 | 0 |  | 0 | 0 | 0 | 4 | 0 |  |
 | revise_body_shall_bear | 0 | 0 |  | 0 | 0 | 0 | 4 | 0 |  |
 | revise_hand_shall_hold_two | 0 | 0 |  | 0 | 0 | 0 | 3 | 0 |  |
 | revise_measures_withheld | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
@@ -193,3 +207,4 @@ once. Rebuilt with every ingest — do not edit.
 | the_measured_course | 0 | 0 |  | 0 | 0 | 0 | 12 | 0 |  |
 | the_measured_foundation | 0 | 0 |  | 0 | 0 | 0 | 8 | 0 |  |
 | wrong_form | 0 | 0 |  | 0 | 0 | 0 | 3 | 0 |  |
+| yield_your_place | 0 | 0 |  | 0 | 0 | 0 | 14 | 0 |  |
