@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-24T05:45:42.9966609Z",
+ "generated_utc": "2026-10-26T11:51:38.1974251Z",
  "players": [
   {
    "id": "8ef75b3f4fc7",
@@ -10,6 +10,16 @@
    "elites": 1,
    "bosses": 0,
    "last": "2026-10-09T10:32:21.6053565Z"
+  },
+  {
+   "id": "724ceaf49788",
+   "name": "Derin Büro",
+   "runs": 3,
+   "wins": 0,
+   "enemies": 70,
+   "elites": 8,
+   "bosses": 6,
+   "last": "2026-10-26T11:51:38.1974251Z"
   },
   {
    "id": "283cb495b1a7",
@@ -40,16 +50,6 @@
    "elites": 0,
    "bosses": 0,
    "last": "2026-09-24T11:01:45.4066332Z"
-  },
-  {
-   "id": "724ceaf49788",
-   "name": "Derin Büro",
-   "runs": 1,
-   "wins": 0,
-   "enemies": 60,
-   "elites": 7,
-   "bosses": 6,
-   "last": "2026-09-25T12:16:29.0212302Z"
   },
   {
    "id": "94c37b2a8fd2",
