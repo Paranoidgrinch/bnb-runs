@@ -37,8 +37,8 @@ once. Rebuilt with every ingest — do not edit.
 | mortgage_sigil | 13 | 4 | 31% | 3 | 0 | 0 | 15 | 3 | 0% |
 | privy_seal | 13 | 2 | 15% | 0 | 0 | 0 | 10 | 1 | 0% |
 | silent_hearing | 12 | 1 | 8% | 0 | 0 | 1 | 57 | 1 | 0% |
-| lt_buckler_up | 11 | 0 | 0% | 0 | 0 | 1 | 86 | 0 |  |
-| lt_watch_cut | 11 | 0 | 0% | 0 | 0 | 3 | 137 | 0 |  |
+| lt_buckler_up | 11 | 0 | 0% | 0 | 0 | 1 | 90 | 0 |  |
+| lt_watch_cut | 11 | 0 | 0% | 0 | 0 | 3 | 145 | 0 |  |
 | foreclosure | 10 | 1 | 10% | 0 | 0 | 0 | 7 | 1 | 0% |
 | counter_ward | 9 | 2 | 22% | 0 | 0 | 0 | 24 | 2 | 0% |
 | fine_print_hex | 9 | 4 | 44% | 0 | 0 | 0 | 36 | 4 | 0% |
@@ -76,6 +76,7 @@ once. Rebuilt with every ingest — do not edit.
 | clerks_familiar | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | contempt_finding | 4 | 1 | 25% | 0 | 0 | 0 | 0 | 1 | 0% |
 | grand_citation | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_bloody_cobbles | 4 | 1 | 25% | 0 | 0 | 0 | 10 | 1 | 0% |
 | lt_clenched_jaw | 4 | 2 | 50% | 0 | 0 | 0 | 20 | 2 | 0% |
 | lt_no_surrender | 4 | 2 | 50% | 0 | 0 | 0 | 7 | 2 | 0% |
 | lt_roll_call | 4 | 1 | 25% | 0 | 0 | 0 | 2 | 1 | 0% |
@@ -87,9 +88,8 @@ once. Rebuilt with every ingest — do not edit.
 | dead_letter_office | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | guest_right | 3 | 1 | 33% | 0 | 0 | 0 | 4 | 1 | 0% |
 | hedge_hospitality | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| lt_bloody_cobbles | 3 | 1 | 33% | 0 | 0 | 0 | 10 | 1 | 0% |
 | lt_braced_pike | 3 | 1 | 33% | 0 | 0 | 0 | 1 | 1 | 0% |
-| lt_first_orders | 3 | 1 | 33% | 0 | 0 | 0 | 36 | 1 | 0% |
+| lt_first_orders | 3 | 1 | 33% | 0 | 0 | 0 | 37 | 1 | 0% |
 | lt_marked_man | 3 | 1 | 33% | 0 | 0 | 0 | 26 | 1 | 0% |
 | lt_new_stripes | 3 | 0 | 0% | 0 | 0 | 0 | 34 | 0 |  |
 | lt_service_record | 3 | 2 | 67% | 6 | 0 | 0 | 10 | 1 | 0% |
@@ -131,6 +131,7 @@ once. Rebuilt with every ingest — do not edit.
 | temple_tally | 2 | 1 | 50% | 0 | 0 | 0 | 24 | 1 | 0% |
 | violence_allowance | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | archive_pyre | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| ash_remembers | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | black_tribunal | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | blank_warrant | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | blood_tithe | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
@@ -145,6 +146,7 @@ once. Rebuilt with every ingest — do not edit.
 | last_office | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | lt_against_the_wall | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | lt_arrest | 1 | 0 | 0% | 5 | 0 | 0 | 0 | 0 |  |
+| lt_brevet | 1 | 0 | 0% | 3 | 0 | 0 | 0 | 0 |  |
 | lt_buckle | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | lt_cadence | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | lt_drum_major | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
@@ -191,7 +193,6 @@ once. Rebuilt with every ingest — do not edit.
 | file_the_request | 0 | 0 |  | 0 | 0 | 0 | 8 | 0 |  |
 | fragment_of_access | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
 | fragment_of_execution | 0 | 0 |  | 0 | 0 | 0 | 3 | 0 |  |
-| lt_brevet | 0 | 0 |  | 3 | 0 | 0 | 0 | 0 |  |
 | lt_gauntlet | 0 | 0 |  | 2 | 0 | 0 | 0 | 0 |  |
 | lt_splintered_shield | 0 | 0 |  | 6 | 0 | 0 | 0 | 0 |  |
 | make_amends | 0 | 0 |  | 0 | 0 | 0 | 7 | 0 |  |
