@@ -30,8 +30,8 @@ hex_circular,13,2,15%,0,0,0,32,2,0%
 mortgage_sigil,13,4,31%,3,0,0,15,3,0%
 privy_seal,13,2,15%,0,0,0,10,1,0%
 silent_hearing,12,1,8%,0,0,1,57,1,0%
-lt_buckler_up,11,0,0%,0,0,1,90,0,
-lt_watch_cut,11,0,0%,0,0,3,145,0,
+lt_buckler_up,11,0,0%,0,0,1,96,0,
+lt_watch_cut,11,0,0%,0,0,3,153,0,
 foreclosure,10,1,10%,0,0,0,7,1,0%
 counter_ward,9,2,22%,0,0,0,24,2,0%
 fine_print_hex,9,4,44%,0,0,0,36,4,0%
@@ -49,6 +49,7 @@ seal_dividend,7,0,0%,0,0,0,0,0,
 broom_dispatch,6,0,0%,0,0,0,0,0,
 consecrated_testament,6,1,17%,0,0,0,45,1,0%
 guestbook_oath,6,3,50%,0,0,0,72,2,0%
+lt_headlong,6,4,67%,0,0,0,14,3,0%
 skeleton_staff,6,1,17%,0,0,0,2,1,0%
 stay_of_execution,6,1,17%,0,0,0,0,1,0%
 witchmark_citation,6,0,0%,0,0,0,0,0,
@@ -58,7 +59,6 @@ cinder_warrant,5,0,0%,0,0,0,0,0,
 continuance,5,1,20%,0,0,0,36,1,0%
 formal_dissent,5,1,20%,0,0,0,4,1,0%
 licensed_disposal,5,0,0%,0,0,0,0,0,
-lt_headlong,5,4,80%,0,0,0,14,3,0%
 lt_second_rank,5,1,20%,0,0,0,11,1,0%
 night_docket,5,0,0%,0,0,0,0,0,
 reciprocal_edict,5,0,0%,0,0,0,0,0,
@@ -82,9 +82,10 @@ dead_letter_office,3,0,0%,0,0,0,0,0,
 guest_right,3,1,33%,0,0,0,4,1,0%
 hedge_hospitality,3,0,0%,0,0,0,0,0,
 lt_braced_pike,3,1,33%,0,0,0,1,1,0%
-lt_first_orders,3,1,33%,0,0,0,37,1,0%
+lt_first_orders,3,1,33%,0,0,0,39,1,0%
+lt_last_bell,3,2,67%,4,0,0,28,2,0%
 lt_marked_man,3,1,33%,0,0,0,26,1,0%
-lt_new_stripes,3,0,0%,0,0,0,34,0,
+lt_new_stripes,3,0,0%,0,0,0,37,0,
 lt_service_record,3,2,67%,6,0,0,10,1,0%
 lt_witness,3,0,0%,0,0,0,0,0,
 moonlit_counterfeit,3,0,0%,0,0,0,0,0,
@@ -110,9 +111,10 @@ lt_armguard,2,1,50%,0,0,0,4,1,0%
 lt_broken_nose,2,1,50%,0,0,0,0,1,0%
 lt_double_file,2,0,0%,0,0,0,0,0,
 lt_flank,2,1,50%,0,0,0,7,1,0%
-lt_last_bell,2,1,50%,4,0,0,26,1,0%
+lt_heel_turn,2,2,100%,0,0,0,6,2,0%
 lt_pursuit,2,0,0%,0,0,0,0,0,
 lt_ruckus,2,0,0%,0,0,0,0,0,
+lt_scabbard,2,0,0%,0,0,0,0,0,
 lt_split_lip,2,0,0%,0,0,0,0,0,
 marginalia,2,0,0%,0,0,0,0,0,
 nettle_tea,2,0,0%,0,0,0,2,0,
@@ -136,6 +138,7 @@ crown_repossession,1,0,0%,0,0,0,0,0,
 exemplary_sentence,1,0,0%,0,0,0,0,0,
 ghost_register,1,0,0%,0,0,0,0,0,
 hearth_compact,1,0,0%,0,0,0,0,0,
+hearth_kindling,1,0,0%,0,0,0,0,0,
 last_office,1,0,0%,0,0,0,0,0,
 lt_against_the_wall,1,0,0%,0,0,0,0,0,
 lt_arrest,1,0,0%,5,0,0,0,0,
@@ -145,13 +148,11 @@ lt_cadence,1,0,0%,0,0,0,0,0,
 lt_drum_major,1,0,0%,0,0,0,0,0,
 lt_front_rank,1,0,0%,6,0,0,0,0,
 lt_gatehouse,1,0,0%,0,0,0,0,0,
-lt_heel_turn,1,1,100%,0,0,0,6,1,0%
 lt_insubordination,1,1,100%,0,0,0,1,1,0%
 lt_no_excuses,1,1,100%,0,0,0,6,1,0%
 lt_no_running,1,0,0%,6,0,0,0,0,
 lt_parade_ground,1,0,0%,0,0,0,0,0,
 lt_pike_butt,1,0,0%,3,0,0,0,0,
-lt_scabbard,1,0,0%,0,0,0,0,0,
 lt_second_blade,1,1,100%,0,0,0,3,1,0%
 lt_shield_punch,1,0,0%,0,0,0,0,0,
 lt_signal,1,1,100%,0,0,0,7,1,0%
@@ -166,6 +167,7 @@ redaction_veil,1,0,0%,0,0,0,0,0,
 sanguine_errata,1,0,0%,0,0,0,0,0,
 smudged_index,1,0,0%,0,0,0,0,0,
 sovereign_prohibition,1,0,0%,0,0,0,0,0,
+tallow_stub,1,0,0%,0,0,0,0,0,
 vein_register,1,0,0%,0,0,0,0,0,
 vital_census,1,0,0%,0,0,0,0,0,
 wax_reliquary,1,1,100%,0,0,0,2,1,0%

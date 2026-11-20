@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-18T11:30:29.1973031Z",
+ "generated_utc": "2026-11-18T11:42:16.6216961Z",
  "players": [
   {
    "id": "8ef75b3f4fc7",
@@ -14,12 +14,12 @@
   {
    "id": "724ceaf49788",
    "name": "Derin Büro",
-   "runs": 4,
+   "runs": 5,
    "wins": 0,
-   "enemies": 71,
+   "enemies": 73,
    "elites": 8,
    "bosses": 6,
-   "last": "2026-11-18T11:30:29.1973031Z"
+   "last": "2026-11-18T11:42:16.6216961Z"
   },
   {
    "id": "283cb495b1a7",
