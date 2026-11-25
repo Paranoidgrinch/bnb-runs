@@ -9,16 +9,16 @@ once. Rebuilt with every ingest — do not edit.
 | cower_behind_a_desk | 114 | 6 | 5% | 0 | 0 | 4 | 462 | 2 | 0% |
 | paper_cut | 85 | 4 | 5% | 0 | 0 | 10 | 523 | 2 | 0% |
 | form_of_ill_intent | 66 | 6 | 9% | 0 | 0 | 0 | 427 | 3 | 0% |
+| lt_watch_cut | 57 | 0 | 0% | 0 | 0 | 8 | 328 | 0 |  |
+| lt_buckler_up | 56 | 1 | 2% | 0 | 0 | 3 | 242 | 1 | 0% |
 | protective_adjournment | 47 | 8 | 17% | 0 | 0 | 2 | 106 | 5 | 0% |
 | occult_precedent | 44 | 8 | 18% | 0 | 0 | 0 | 139 | 7 | 0% |
 | deferred_hex | 43 | 7 | 16% | 0 | 0 | 0 | 120 | 4 | 0% |
 | inkblot_verdict | 42 | 10 | 24% | 0 | 0 | 0 | 147 | 6 | 0% |
 | cauldron_copy | 41 | 7 | 17% | 0 | 0 | 0 | 108 | 4 | 0% |
-| lt_watch_cut | 38 | 0 | 0% | 0 | 0 | 6 | 217 | 0 |  |
 | cursed_addendum | 37 | 9 | 24% | 0 | 0 | 0 | 102 | 6 | 0% |
-| lt_buckler_up | 36 | 1 | 3% | 0 | 0 | 1 | 164 | 1 | 0% |
 | petty_objection | 31 | 7 | 23% | 0 | 0 | 0 | 41 | 5 | 0% |
-| sealed_mantle | 28 | 9 | 32% | 4 | 0 | 0 | 173 | 4 | 0% |
+| sealed_mantle | 29 | 9 | 31% | 4 | 0 | 0 | 173 | 4 | 0% |
 | waxing_authority | 28 | 4 | 14% | 0 | 0 | 0 | 29 | 2 | 0% |
 | deskward | 27 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | strong_binder | 26 | 4 | 15% | 0 | 0 | 0 | 241 | 4 | 0% |
@@ -28,45 +28,54 @@ once. Rebuilt with every ingest — do not edit.
 | seal_of_concern | 20 | 3 | 15% | 0 | 0 | 0 | 11 | 2 | 0% |
 | secure_misfiling | 20 | 2 | 10% | 0 | 0 | 1 | 33 | 2 | 0% |
 | certified_kindling | 19 | 1 | 5% | 0 | 0 | 0 | 0 | 1 | 0% |
-| sanctioned_charm | 18 | 1 | 6% | 0 | 0 | 0 | 75 | 1 | 0% |
+| sanctioned_charm | 19 | 2 | 11% | 0 | 0 | 0 | 83 | 2 | 0% |
 | summary_judgment | 18 | 3 | 17% | 0 | 0 | 0 | 87 | 3 | 0% |
 | cross_filing | 16 | 3 | 19% | 0 | 0 | 0 | 85 | 3 | 0% |
 | dubious_authority | 15 | 1 | 7% | 0 | 0 | 0 | 73 | 1 | 0% |
 | forfeit_seal | 15 | 3 | 20% | 0 | 0 | 0 | 40 | 3 | 0% |
 | tallow_reserve | 15 | 2 | 13% | 2 | 0 | 0 | 66 | 2 | 0% |
+| lt_new_stripes | 14 | 1 | 7% | 0 | 0 | 0 | 107 | 1 | 0% |
 | grave_lien | 13 | 3 | 23% | 0 | 0 | 0 | 37 | 2 | 0% |
 | hex_circular | 13 | 2 | 15% | 0 | 0 | 0 | 32 | 2 | 0% |
+| lt_first_orders | 13 | 2 | 15% | 0 | 0 | 0 | 109 | 2 | 0% |
 | mortgage_sigil | 13 | 4 | 31% | 3 | 0 | 0 | 15 | 3 | 0% |
 | privy_seal | 13 | 2 | 15% | 0 | 0 | 0 | 10 | 1 | 0% |
 | silent_hearing | 12 | 1 | 8% | 0 | 0 | 1 | 57 | 1 | 0% |
 | false_signature | 11 | 1 | 9% | 2 | 0 | 0 | 19 | 1 | 0% |
-| lt_first_orders | 11 | 1 | 9% | 0 | 0 | 0 | 66 | 1 | 0% |
-| lt_new_stripes | 11 | 0 | 0% | 0 | 0 | 0 | 57 | 0 |  |
 | waxen_surety | 11 | 2 | 18% | 0 | 0 | 0 | 37 | 2 | 0% |
 | foreclosure | 10 | 1 | 10% | 0 | 0 | 0 | 7 | 1 | 0% |
+| lt_pike_butt | 10 | 2 | 20% | 14 | 1 | 0 | 102 | 1 | 0% |
+| lt_second_rank | 10 | 3 | 30% | 0 | 0 | 0 | 11 | 2 | 0% |
+| blacklisted | 9 | 1 | 11% | 0 | 0 | 0 | 16 | 1 | 0% |
 | borrowed_candle | 9 | 2 | 22% | 2 | 0 | 0 | 8 | 2 | 0% |
 | counter_ward | 9 | 2 | 22% | 0 | 0 | 0 | 24 | 2 | 0% |
 | fine_print_hex | 9 | 4 | 44% | 0 | 0 | 0 | 36 | 4 | 0% |
 | notary_beetle | 9 | 1 | 11% | 0 | 0 | 0 | 8 | 1 | 0% |
 | red_ink_doctrine | 9 | 3 | 33% | 0 | 0 | 0 | 18 | 2 | 0% |
-| tallow_stub | 9 | 3 | 33% | 0 | 0 | 0 | 40 | 1 | 0% |
+| tallow_stub | 9 | 3 | 33% | 1 | 0 | 0 | 68 | 1 | 0% |
 | adders_nip | 8 | 0 | 0% | 0 | 0 | 0 | 4 | 0 |  |
-| lt_second_rank | 8 | 1 | 12% | 0 | 0 | 0 | 11 | 1 | 0% |
+| lt_split_lip | 8 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | pot_lid | 8 | 0 | 0% | 0 | 0 | 0 | 4 | 0 |  |
 | seizure_writ | 8 | 1 | 12% | 0 | 0 | 1 | 1 | 1 | 0% |
+| tallow_judgment | 8 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | black_ledger | 7 | 3 | 43% | 0 | 0 | 0 | 19 | 3 | 0% |
 | conditional_approval | 7 | 3 | 43% | 0 | 0 | 0 | 19 | 3 | 0% |
 | errata_furnace | 7 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | lt_clenched_jaw | 7 | 2 | 29% | 0 | 0 | 0 | 20 | 2 | 0% |
+| lt_headlong | 7 | 4 | 57% | 0 | 0 | 0 | 14 | 3 | 0% |
+| lt_marked_man | 7 | 1 | 14% | 0 | 0 | 0 | 26 | 1 | 0% |
+| lt_signal | 7 | 2 | 29% | 0 | 0 | 1 | 40 | 2 | 0% |
 | malediction_review | 7 | 1 | 14% | 5 | 0 | 0 | 11 | 1 | 0% |
 | seal_dividend | 7 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| ash_remembers | 6 | 2 | 33% | 0 | 0 | 0 | 17 | 1 | 0% |
 | broom_dispatch | 6 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | consecrated_testament | 6 | 1 | 17% | 0 | 0 | 0 | 45 | 1 | 0% |
 | guestbook_oath | 6 | 3 | 50% | 0 | 0 | 0 | 72 | 2 | 0% |
-| lt_headlong | 6 | 4 | 67% | 0 | 0 | 0 | 14 | 3 | 0% |
-| lt_marked_man | 6 | 1 | 17% | 0 | 0 | 0 | 26 | 1 | 0% |
+| lt_heel_turn | 6 | 2 | 33% | 0 | 0 | 0 | 6 | 2 | 0% |
+| lt_last_bell | 6 | 2 | 33% | 5 | 0 | 0 | 28 | 2 | 0% |
 | lt_roll_call | 6 | 1 | 17% | 0 | 0 | 0 | 2 | 1 | 0% |
-| lt_split_lip | 6 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_witness | 6 | 1 | 17% | 0 | 0 | 0 | 34 | 1 | 0% |
+| scattered_notes | 6 | 1 | 17% | 0 | 0 | 0 | 43 | 1 | 0% |
 | skeleton_staff | 6 | 1 | 17% | 0 | 0 | 0 | 2 | 1 | 0% |
 | stay_of_execution | 6 | 1 | 17% | 0 | 0 | 0 | 0 | 1 | 0% |
 | witchmark_citation | 6 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
@@ -74,55 +83,65 @@ once. Rebuilt with every ingest — do not edit.
 | blood_marginalia | 5 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | cinder_warrant | 5 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | continuance | 5 | 1 | 20% | 0 | 0 | 0 | 36 | 1 | 0% |
+| dawn_summons | 5 | 1 | 20% | 7 | 1 | 0 | 38 | 2 | 0% |
 | formal_dissent | 5 | 1 | 20% | 0 | 0 | 0 | 4 | 1 | 0% |
 | licensed_disposal | 5 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| lt_heel_turn | 5 | 2 | 40% | 0 | 0 | 0 | 6 | 2 | 0% |
-| lt_pike_butt | 5 | 0 | 0% | 7 | 0 | 0 | 0 | 0 |  |
+| lt_braced_pike | 5 | 2 | 40% | 0 | 0 | 0 | 34 | 2 | 0% |
+| lt_scabbard | 5 | 0 | 0% | 5 | 0 | 0 | 0 | 0 |  |
+| lt_shield_punch | 5 | 1 | 20% | 4 | 0 | 0 | 14 | 1 | 0% |
+| lt_whetstone | 5 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | midnight_toll | 5 | 2 | 40% | 0 | 0 | 0 | 26 | 1 | 0% |
 | night_docket | 5 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | reciprocal_edict | 5 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | tallow_budget | 5 | 1 | 20% | 0 | 0 | 0 | 3 | 1 | 0% |
-| tallow_judgment | 5 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | threefold_injunction | 5 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| thrown_inkpot | 5 | 1 | 20% | 0 | 0 | 0 | 30 | 1 | 0% |
 | vigil_lamp | 5 | 4 | 80% | 0 | 0 | 0 | 26 | 1 | 0% |
 | candle_tribunal | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | clerks_familiar | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | contempt_finding | 4 | 1 | 25% | 0 | 0 | 0 | 0 | 1 | 0% |
 | grand_citation | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| hailstones | 4 | 1 | 25% | 0 | 0 | 0 | 12 | 1 | 0% |
-| lt_arrest | 4 | 0 | 0% | 7 | 0 | 0 | 0 | 0 |  |
+| hailstones | 4 | 1 | 25% | 1 | 0 | 0 | 12 | 1 | 0% |
+| lt_against_the_wall | 4 | 1 | 25% | 0 | 0 | 0 | 11 | 1 | 0% |
+| lt_arrest | 4 | 0 | 0% | 10 | 0 | 0 | 0 | 0 |  |
 | lt_bloody_cobbles | 4 | 1 | 25% | 0 | 0 | 0 | 10 | 1 | 0% |
-| lt_cut_the_strap | 4 | 2 | 50% | 2 | 0 | 0 | 19 | 1 | 0% |
+| lt_cut_the_strap | 4 | 2 | 50% | 3 | 0 | 0 | 19 | 1 | 0% |
 | lt_no_surrender | 4 | 2 | 50% | 0 | 0 | 0 | 7 | 2 | 0% |
-| lt_shield_punch | 4 | 1 | 25% | 2 | 0 | 0 | 14 | 1 | 0% |
-| lt_whetstone | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | mortgaged_aegis | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| spiteful_draft | 4 | 2 | 50% | 0 | 0 | 0 | 43 | 1 | 0% |
+| stolen_hour | 4 | 2 | 50% | 0 | 0 | 0 | 16 | 1 | 0% |
 | wax_indemnity | 4 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | backlog_charge | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| besom_guard | 3 | 1 | 33% | 0 | 0 | 0 | 47 | 1 | 0% |
 | binding_fee | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | dead_letter_office | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | errand_rook | 3 | 2 | 67% | 0 | 0 | 0 | 14 | 1 | 0% |
 | guest_right | 3 | 1 | 33% | 0 | 0 | 0 | 4 | 1 | 0% |
 | hedge_hospitality | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| lt_against_the_wall | 3 | 1 | 33% | 0 | 0 | 0 | 11 | 1 | 0% |
 | lt_armguard | 3 | 1 | 33% | 0 | 0 | 0 | 4 | 1 | 0% |
-| lt_braced_pike | 3 | 1 | 33% | 0 | 0 | 0 | 1 | 1 | 0% |
+| lt_broken_nose | 3 | 1 | 33% | 0 | 0 | 0 | 0 | 1 | 0% |
+| lt_broken_pike | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_buckle | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | lt_drum_major | 3 | 1 | 33% | 0 | 0 | 0 | 6 | 1 | 0% |
-| lt_last_bell | 3 | 2 | 67% | 4 | 0 | 0 | 28 | 2 | 0% |
 | lt_last_ditch | 3 | 2 | 67% | 0 | 0 | 0 | 33 | 1 | 0% |
+| lt_pursuit | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_ruckus | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | lt_service_record | 3 | 2 | 67% | 6 | 0 | 0 | 10 | 1 | 0% |
-| lt_witness | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| melted_down | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | moonlit_counterfeit | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | oath_of_refusal | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| overlooking | 3 | 1 | 33% | 3 | 0 | 0 | 21 | 1 | 0% |
 | presumption_of_error | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | standing_citation | 3 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | usurers_moon | 3 | 0 | 0% | 10 | 0 | 0 | 0 | 0 |  |
 | volley_of_quills | 3 | 1 | 33% | 0 | 0 | 0 | 29 | 1 | 0% |
 | wastepaper_bastion | 3 | 1 | 33% | 0 | 0 | 0 | 4 | 1 | 0% |
-| bill_of_attainder | 2 | 0 | 0% | 2 | 0 | 0 | 0 | 0 |  |
-| blacklisted | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| weight_of_paper | 3 | 1 | 33% | 0 | 0 | 0 | 5 | 1 | 0% |
+| ashen_receipt | 2 | 0 | 0% | 1 | 0 | 0 | 0 | 0 |  |
+| bill_of_attainder | 2 | 0 | 0% | 4 | 0 | 0 | 0 | 0 |  |
 | blood_redaction | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | blood_testimony | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| bone_meal | 2 | 0 | 0% | 2 | 0 | 0 | 0 | 0 |  |
 | briar_sweep | 2 | 1 | 50% | 0 | 0 | 0 | 0 | 1 | 0% |
 | clutter_concordance | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | crossed_sigil | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
@@ -132,32 +151,37 @@ once. Rebuilt with every ingest — do not edit.
 | duplicate_copy | 2 | 1 | 50% | 0 | 0 | 2 | 31 | 1 | 0% |
 | final_attestation | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | funeral_index | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| hearth_kindling | 2 | 1 | 50% | 0 | 0 | 0 | 8 | 1 | 0% |
 | hedge_covenant | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| lingering_malison | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| lt_broken_nose | 2 | 1 | 50% | 0 | 0 | 0 | 0 | 1 | 0% |
-| lt_broken_pike | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lamplit_study | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lingering_malison | 2 | 0 | 0% | 3 | 0 | 0 | 0 | 0 |  |
+| lt_arms_drill | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | lt_double_file | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | lt_flank | 2 | 1 | 50% | 0 | 0 | 0 | 7 | 1 | 0% |
-| lt_front_rank | 2 | 0 | 0% | 8 | 0 | 0 | 0 | 0 |  |
-| lt_pursuit | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| lt_ruckus | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| lt_scabbard | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_front_rank | 2 | 0 | 0% | 9 | 0 | 0 | 0 | 0 |  |
+| lt_gauntlet | 2 | 0 | 0% | 10 | 0 | 0 | 0 | 0 |  |
+| lt_remand | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_reprimand | 2 | 1 | 50% | 0 | 0 | 0 | 26 | 1 | 0% |
+| lt_testimony | 2 | 0 | 0% | 4 | 0 | 0 | 0 | 0 |  |
+| lt_under_the_colours | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | marginalia | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | nettle_tea | 2 | 0 | 0% | 0 | 0 | 0 | 2 | 0 |  |
 | notarys_tithe | 2 | 1 | 50% | 0 | 0 | 0 | 4 | 1 | 0% |
 | null_catalogue | 2 | 1 | 50% | 0 | 0 | 1 | 0 | 1 | 0% |
 | palimpsest_order | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| poppet_pin | 2 | 1 | 50% | 1 | 0 | 0 | 17 | 1 | 0% |
 | priority_docket | 2 | 1 | 50% | 0 | 0 | 0 | 0 | 1 | 0% |
 | processional_calendar | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| sifted_ashes | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | temple_tally | 2 | 1 | 50% | 0 | 0 | 0 | 24 | 1 | 0% |
 | violence_allowance | 2 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| wax_reliquary | 2 | 1 | 50% | 1 | 0 | 0 | 2 | 1 | 0% |
+| wax_reliquary | 2 | 1 | 50% | 6 | 0 | 0 | 2 | 1 | 0% |
 | archive_pyre | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| ash_remembers | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| barred_door | 1 | 0 | 0% | 8 | 0 | 0 | 0 | 0 |  |
+| beadles_cudgel | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | black_tribunal | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | blank_warrant | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | blood_tithe | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| bone_meal | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | cartouche_reckoning | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | clerical_discretion | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | coin_under_the_tongue | 1 | 0 | 0% | 2 | 0 | 0 | 0 | 0 |  |
@@ -168,70 +192,76 @@ once. Rebuilt with every ingest — do not edit.
 | exemplary_sentence | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | gathered_gossip | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | ghost_register | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| hares_mark | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | hearth_compact | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| hearth_kindling | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | last_office | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_black_gauntlet | 1 | 0 | 0% | 5 | 0 | 0 | 0 | 0 |  |
 | lt_brevet | 1 | 0 | 0% | 3 | 0 | 0 | 0 | 0 |  |
-| lt_buckle | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | lt_cadence | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_chain_of_command | 1 | 0 | 0% | 1 | 0 | 0 | 0 | 0 |  |
 | lt_gatehouse | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| lt_gauntlet | 1 | 0 | 0% | 5 | 0 | 0 | 0 | 0 |  |
+| lt_grip | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_heave | 1 | 0 | 0% | 2 | 0 | 0 | 0 | 0 |  |
 | lt_insubordination | 1 | 1 | 100% | 0 | 0 | 0 | 1 | 1 | 0% |
 | lt_no_excuses | 1 | 1 | 100% | 0 | 0 | 0 | 6 | 1 | 0% |
 | lt_no_running | 1 | 0 | 0% | 6 | 0 | 0 | 0 | 0 |  |
+| lt_overhand | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_overreach | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | lt_parade_ground | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_pike_square | 1 | 0 | 0% | 2 | 0 | 0 | 0 | 0 |  |
+| lt_poise | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_riposte | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_rising_star | 1 | 0 | 0% | 1 | 0 | 0 | 0 | 0 |  |
 | lt_scar | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| lt_second_blade | 1 | 1 | 100% | 0 | 0 | 0 | 3 | 1 | 0% |
-| lt_signal | 1 | 1 | 100% | 0 | 0 | 0 | 7 | 1 | 0% |
-| lt_testimony | 1 | 0 | 0% | 3 | 0 | 0 | 0 | 0 |  |
-| lt_under_the_colours | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| lt_second_blade | 1 | 1 | 100% | 1 | 0 | 0 | 3 | 1 | 0% |
 | lt_whistle | 1 | 1 | 100% | 0 | 0 | 0 | 8 | 1 | 0% |
-| melted_down | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| overlooking | 1 | 0 | 0% | 2 | 0 | 0 | 0 | 0 |  |
 | pending_matters | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | proxy_curse | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | rebuttal | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | redaction_veil | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| rowan_over_the_door | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | sanguine_errata | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| scattered_notes | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| seed_of_misgiving | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | sieve_and_shears | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| sifted_ashes | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | smouldering_correspondence | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | smudged_index | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | sovereign_prohibition | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | spreading_rumour | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| stolen_hour | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| thrown_inkpot | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| standing_stones | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | vein_register | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | vital_census | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
-| weight_of_paper | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
+| whispering_gallery | 1 | 0 | 0% | 2 | 0 | 0 | 0 | 0 |  |
+| wick_burnt_short | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | witness_knot | 1 | 0 | 0% | 0 | 0 | 0 | 0 | 0 |  |
 | acknowledge_service | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
 | ask_at_the_desk | 0 | 0 |  | 0 | 0 | 0 | 5 | 0 |  |
 | authorized_entry | 0 | 0 |  | 0 | 0 | 0 | 6 | 0 |  |
 | authorized_expedition | 0 | 0 |  | 0 | 0 | 0 | 2 | 0 |  |
-| barred_door | 0 | 0 |  | 2 | 0 | 0 | 0 | 0 |  |
+| borrowed_hour | 0 | 0 |  | 0 | 0 | 0 | 2 | 0 |  |
 | break_the_burden_seal | 0 | 0 |  | 0 | 0 | 0 | 2 | 0 |  |
 | break_the_pest_seal | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
 | break_the_ration_seal | 0 | 0 |  | 0 | 0 | 0 | 2 | 0 |  |
 | break_the_seal_of_access | 0 | 0 |  | 0 | 0 | 0 | 4 | 0 |  |
 | break_the_seal_of_execution | 0 | 0 |  | 0 | 0 | 0 | 4 | 0 |  |
 | break_the_seal_of_testimony | 0 | 0 |  | 0 | 0 | 0 | 4 | 0 |  |
-| burnt_offering | 0 | 0 |  | 1 | 0 | 0 | 0 | 0 |  |
+| burnt_offering | 0 | 0 |  | 5 | 0 | 0 | 0 | 0 |  |
 | cite_the_old_survey | 0 | 0 |  | 0 | 0 | 0 | 13 | 0 |  |
 | clause_extension | 0 | 0 |  | 0 | 0 | 0 | 2 | 0 |  |
 | clause_protective | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
-| dawn_summons | 0 | 0 |  | 7 | 1 | 0 | 5 | 1 | 0% |
-| file_the_request | 0 | 0 |  | 0 | 0 | 0 | 10 | 0 |  |
+| file_the_request | 0 | 0 |  | 0 | 0 | 0 | 12 | 0 |  |
 | fragment_of_access | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
 | fragment_of_execution | 0 | 0 |  | 0 | 0 | 0 | 3 | 0 |  |
-| ill_wind | 0 | 0 |  | 2 | 0 | 0 | 0 | 0 |  |
+| ill_wind | 0 | 0 |  | 7 | 0 | 0 | 0 | 0 |  |
+| lt_hilt_knot | 0 | 0 |  | 3 | 0 | 0 | 0 | 0 |  |
+| lt_redress | 0 | 0 |  | 3 | 0 | 0 | 0 | 0 |  |
 | lt_splintered_shield | 0 | 0 |  | 8 | 0 | 0 | 0 | 0 |  |
+| lt_ultimatum | 0 | 0 |  | 3 | 0 | 0 | 0 | 0 |  |
 | make_amends | 0 | 0 |  | 0 | 0 | 0 | 7 | 0 |  |
 | misfiled_paper | 0 | 0 |  | 0 | 0 | 0 | 6 | 0 |  |
 | missing_signature | 0 | 0 |  | 0 | 0 | 0 | 4 | 0 |  |
+| notice_of_delay | 0 | 0 |  | 0 | 0 | 0 | 2 | 0 |  |
 | petition_for_priority | 0 | 0 |  | 0 | 0 | 0 | 4 | 0 |  |
-| return_slip | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
+| return_slip | 0 | 0 |  | 0 | 0 | 0 | 9 | 0 |  |
 | revise_body_shall_bear | 0 | 0 |  | 0 | 0 | 0 | 4 | 0 |  |
 | revise_hand_shall_hold_two | 0 | 0 |  | 0 | 0 | 0 | 3 | 0 |  |
 | revise_measures_withheld | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
@@ -240,6 +270,7 @@ once. Rebuilt with every ingest — do not edit.
 | summons_to_appear | 0 | 0 |  | 0 | 0 | 0 | 2 | 0 |  |
 | the_answer_of_burden | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
 | the_answer_of_measure | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
+| the_frogs_fare | 0 | 0 |  | 0 | 0 | 0 | 1 | 0 |  |
 | the_measured_course | 0 | 0 |  | 0 | 0 | 0 | 12 | 0 |  |
 | the_measured_foundation | 0 | 0 |  | 0 | 0 | 0 | 8 | 0 |  |
 | toll_in_kind | 0 | 0 |  | 0 | 0 | 0 | 8 | 0 |  |
